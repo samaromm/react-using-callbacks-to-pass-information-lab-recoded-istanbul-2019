@@ -9,6 +9,6 @@ export default class ColorSelector extends Component {
   )
 
   render() {
-   return <div onClick={this.props.setSelectedColor()} key={idx} className="color-swatch" style={{backgroundColor: str}}/>
+   return <div onClick={callback} key={idx} className="color-swatch" style={{backgroundColor: str}}/>
   }
 }
