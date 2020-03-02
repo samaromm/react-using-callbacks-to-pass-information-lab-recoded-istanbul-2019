@@ -21,7 +21,7 @@ export default class Matrix extends Component {
   )
   
   changeColoe=(newColor)=>{
-    this.setState({this.state})
+    this.setState({selectedColor: newColor})
   }
 
   render() {
