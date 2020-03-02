@@ -20,9 +20,11 @@ export default class Matrix extends Component {
     this.props.values.map((rowVals, idx) => <div key={idx} className="row">{this.genRow(rowVals)}</div>)
   )
   
-  changeColoe=(newColor)=>{
-    this.setState({selectedColor: newColor})
-  }
+  setSelectedColor = (newColor) => {
+  this.setState({
+    selectedColor: newColor
+  })
+}
 
   render() {
     return (
